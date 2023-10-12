@@ -1,4 +1,3 @@
-//add,multiply,display transpose of a matrix
 #include<stdio.h>
 int a[50][50],b[50][50],c[50][50],i,j,k,l,n,m,p,q,ch;
 void add();
