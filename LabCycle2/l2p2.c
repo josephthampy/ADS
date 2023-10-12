@@ -7,7 +7,7 @@ void insert(int item)
 {
 if((front == 0 && rear == MAX-1) || (front == rear+1))
 {
-printf("Queue Overflow n");
+printf("Queue Overflow \n");
 return;
 }
 if(front == -1)
@@ -74,7 +74,7 @@ printf("%d ",cqueue_arr[front_pos]);
 front_pos++;
 }
 }
-printf("n");
+printf("\n");
 }
 int main()
 {
@@ -101,6 +101,7 @@ case 3:
 display();
 break;
 case 4:
+exit();
 break;
 default:
 printf("Wrong choice \n");
