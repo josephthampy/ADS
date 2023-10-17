@@ -4,7 +4,9 @@ int arr[10], top=-1, n;
 void push(){
 	if(top >= n){
 		printf("Stack is overflow.");
-	}else {
+	}
+	else 
+	{
 		int data;
 		printf("Enter the data : ");
 		scanf("%d", &data);
@@ -16,7 +18,9 @@ void push(){
 void pop(){
 	if(top < 0){
 		printf("Stack is underflow.");
-	}else {
+	}
+	else 
+	{
 		top -= 1;
 	}
 }
@@ -24,7 +28,9 @@ void pop(){
 void display(){
 	if(top < 0){
 		printf("Stack is underflow.");
-	}else {
+	}
+	else 
+	{
 		for(int i = top; i >= 0; i--){
 			printf("%d ", arr[i]);
 		}
