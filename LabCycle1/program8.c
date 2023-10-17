@@ -55,7 +55,7 @@ int main(){
 				display();
 				break;
 			case 4:
-				printf("Exiting..");
+				exit();
 				break;
 			default:
 				printf("Invalid entry!");
